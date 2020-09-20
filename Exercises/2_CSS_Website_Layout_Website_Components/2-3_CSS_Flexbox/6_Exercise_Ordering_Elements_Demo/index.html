@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercise 1</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+    <!-- Change the order of elements so that box 3 appears first, then box2, then box 1 -->
+
+  <style>
+  .container{
+    display:flex;
+    flex-direction: column;
+/*     flex-direction: column-reverse; */
+    border: 2px solid yellow;
+  }
+    
+  .box{
+        width: 250px;
+        height: 150px;
+        border: 1px solid red;
+    }
+    
+  #one{
+    order: 3;
+  }
+    
+  #two{
+    order: 2;
+  }
+    
+  #three{
+    order: 1;
+  }
+  
+  </style>
+  </head>
+
+  <body>
+    <!-- Change the order of elements so that box 3 appears first, then box2, then box 1 -->
+
+  <div class = "container">
+    <div class="box" id="one"> Box 1</div>
+    <div class="box" id="two"> Box 2</div>
+    <div class="box" id="three"> Box 3</div>
+  </div>
+  </body>
+</html>
