@@ -24,22 +24,22 @@
 
 #one{
   background-image:url('../images/chuttersnap-eUs04ihWZMU-unsplash.jpg');
-    background-size=contain;
+    background-size: contain;
 }
 
 #two{
   background-image:url('../images/daniil-vnoutchkov-IiYj9DM7RW0-unsplash.jpg');
-    background-size=contain;
+    background-size: contain;
 }
 
 #three{
   background-image:url('../images/sylvia-yang-_ar2ENzmqb0-unsplash.jpg');
-    background-size=contain;
+    background-size: contain;
 }
 
 #four{
   background-image:url('../images/willian-justen-de-vasconcellos-kjSXJV1TpQg-unsplash.jpg');
-    background-size=contain;
+    background-size: contain;
 }
 
 .box{
