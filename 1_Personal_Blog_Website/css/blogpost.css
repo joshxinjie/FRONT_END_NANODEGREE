@@ -4,10 +4,11 @@
 #blog-grid-container{
     display:grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px 300px 1fr 200px 100px;
+    grid-template-rows: 50px 300px 75px 1fr 200px 100px;
     grid-template-areas:
     "menu"
     "intro"
+    "author"
     "text"
     "next-story"
     "footer";
@@ -17,10 +18,11 @@
     #blog-grid-container{
         display:grid;
         grid-template-columns: 100%;
-        grid-template-rows: 50px 700px 1fr 200px 100px;
+        grid-template-rows: 50px 700px 75px 1fr 200px 100px;
         grid-template-areas:
         "menu"
         "intro"
+        "author"
         "text"
         "next-story"
         "footer";
@@ -71,6 +73,62 @@ div.blog-intro:before {
     z-index:-1;
 }
 
+.author-info {
+    grid-area: author;
+    padding: 50px;
+}
+
+#author-grid-container {
+    display:grid;
+    grid-template-columns: 1fr 60px 240px 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "top-line top-line top-line top-line"
+    "author-left-space author-pic author-intro author-right-space"
+    "bottom-line bottom-line bottom-line bottom-line";
+}
+
+@media (min-width: 1000px) {
+    #author-grid-container{
+        display:grid;
+        grid-template-columns: 1fr 5% 45% 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+        "top-line top-line top-line top-line"
+        "author-left-space author-pic author-intro author-right-space"
+        "bottom-line bottom-line bottom-line bottom-line";
+    }
+}
+
+#author-pic {
+    grid-area: author-pic;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 9px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.author-intro {
+    grid-area: author-intro;
+    /* margin: 0; */
+    padding: 0;
+    line-height: 1px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+#author-name {
+    font-weight: bold;
+}
+
+#author-avatar {
+    font-style: italic;
+}
+
 #blog-text-grid-container {
     display:grid;
     grid-template-columns: 1fr 300px 1fr;
@@ -101,6 +159,7 @@ div.blog-intro:before {
 
 .blog-text {
     font-family: Roboto;
+    text-align: justify;
 }
 
 #blog-text-1 {
@@ -203,6 +262,7 @@ div.blog-intro:before {
     #blog-pic-1 {
         height:300px;
     }
+
 }
 
 @media (min-width: 1000px) {
@@ -222,5 +282,9 @@ div.blog-intro:before {
     #next-story-title-1 {
         margin-top: 40px;
         font-size: 20px;
+    }
+
+    .author-intro {
+        font-size: 15px;
     }
 }
