@@ -1,0 +1,1 @@
+https://api.meaningcloud.com/sentiment-2.1?key=481dc1ea0a00be44dc54020e027ca945&of=json&txt=Today%20Trump%20announced%20that%20US%20will%20have%20a%20lockdown&model=general&lang=en
