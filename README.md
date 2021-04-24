@@ -1,5 +1,4 @@
-# FRONT_END_NANODEGREE
-
+# Front End Nanodegree
 
 1. Project 1: [Personal Blog Website](https://github.com/joshxinjie/fend_p1)
   - App URL: https://quirky-brattain-2a0305.netlify.app/index.html
