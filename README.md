@@ -9,3 +9,5 @@
   - App URL: https://nlpnewssentiment.herokuapp.com/
 6. Capstone: [Travel App](https://github.com/joshxinjie/fend_capstone)
   - App URL: https://fsnd-travel-capstone.herokuapp.com/
+
+Tech Stack: HTML, CSS, JavaScript, NodeJS, ExpressJS, Webpack
