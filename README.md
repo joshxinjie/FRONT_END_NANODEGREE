@@ -6,4 +6,4 @@
 3. Project 3: [Weather Journal App](https://github.com/joshxinjie/fend_p3)
 4. Project 4: [News Sentiment App](https://github.com/joshxinjie/fend_p4)
 5. Capstone: [Travel App](https://github.com/joshxinjie/fend_capstone)
-  - Website URL: https://fsnd-travel-capstone.herokuapp.com/
+    - Website URL: https://fsnd-travel-capstone.herokuapp.com/
